@@ -9,6 +9,7 @@ import javax.inject.Inject
 class MainActivity : AppCompatActivity() {
 
     @Inject
+    @FirebaseImp
     lateinit var mRepository: UserRepository
 
     override fun onCreate(savedInstanceState: Bundle?) {
